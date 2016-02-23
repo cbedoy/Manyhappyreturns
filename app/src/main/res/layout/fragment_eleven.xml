@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#BB004D40"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#FAFAFA"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:text="Como te daras cuenta, no soy el bedoy de hace unos meses, soy otra persona y me comporto diferente porque creo en tí, y porque me preocupas tú.\n\nY sería una lastima mandar todo al carajo, es una situación complicada para ambos..."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#BB3F51B5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#FAFAFA"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:text="Antes que nada hoy 10 de marzo del 2016, quiero desearte un feliz dia :D\n\nMis mejores deseos por siempre pará ti y compañia..\n\nDisfruta mucho todos los días de tu vida, pero con mas ganas cada uno de tus cumpleaños, porque son como un logro que tienen las personas \n\n:D"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

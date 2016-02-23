@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#BB0D47A1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#FAFAFA"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:text="Es correcto, aveces siento mucha inseguridad y no se que pueda pasar, pero mientras de ello me siento bien, aunque aveces hay cosas que digo wtf! porque se complican las cosas\n\nCreo que mientras las cosas se complican se obtienen mejores resultados a largo plazo, y se que eres o perteneces a una familia en que las cosas como estas no pueden causar mucha impresión."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
