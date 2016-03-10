@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:background="#BB212121"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/img_5"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:background="#AA212121"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
     <TextView
         android:textColor="#FAFAFA"
         android:gravity="center"
         android:padding="16dp"
         android:textSize="30sp"
-        android:text="'Simplemente puedo decirte que eres lo mas bonito que he visto en toda mi vida...\n\nLejos de la canción..."
+        android:text="Porque\n\n'Nadie entiende por qué me aferro, nadie te ve como te veo..'"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-</LinearLayout>
+</RelativeLayout>

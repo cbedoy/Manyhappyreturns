@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:background="#BB880E4F"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:textColor="#FAFAFA"
-        android:gravity="center"
-        android:padding="16dp"
-        android:textSize="20sp"
-        android:text="Despues de mucho tiempo te das cuenta cuando una persona vale la pena, tu sabes, bedoy tiene los sentimientos retardados, mas sin embargo, despues de mucho tiempo, me doy cuenta de que lo que siempre estuve buscando lo tengo quiza viendo esta cosa..."
+    <ImageView
+        android:src="@drawable/img_9"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-</LinearLayout>
+    <View
+        android:background="#AA212121"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:textColor="#CCFAFAFA"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textSize="34sp"
+        android:text="Feliz cumpleaños!!!\n\n#include ''cbedoy.h''"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

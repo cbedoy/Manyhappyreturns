@@ -38,9 +38,6 @@ public class MainActivity extends AppCompatActivity {
         mLayouts.add(R.layout.fragment_seven);
         mLayouts.add(R.layout.fragment_eigth);
         mLayouts.add(R.layout.fragment_nine);
-        mLayouts.add(R.layout.fragment_ten);
-        mLayouts.add(R.layout.fragment_eleven);
-        mLayouts.add(R.layout.fragment_twelve);
         FragmentStatePagerAdapter adapter = new FragmentStatePagerAdapter(getSupportFragmentManager()) {
             @Override
             public Fragment getItem(int position)
