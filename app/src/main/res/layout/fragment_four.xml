@@ -13,7 +13,7 @@
         android:layout_height="match_parent" />
 
     <View
-        android:background="#AA212121"
+        android:background="#77212121"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

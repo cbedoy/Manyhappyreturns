@@ -13,12 +13,12 @@
         android:layout_height="match_parent" />
 
     <View
-        android:background="#AA212121"
+        android:background="#77212121"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
     <TextView
-        android:textColor="#CCFAFAFA"
+        android:textColor="#FAFAFA"
         android:gravity="center"
         android:padding="16dp"
         android:textSize="34sp"
