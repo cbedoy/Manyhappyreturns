@@ -8,6 +8,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.vstechlab.easyfonts.EasyFonts;
 
 import cbedoy.manyhappyreturns.R;
 
@@ -17,16 +21,41 @@ import cbedoy.manyhappyreturns.R;
 @SuppressLint("ValidFragment")
 public class FragmentController extends Fragment
 {
-    private int mLayout;
+    private int mDescription;
+    private int mImage;
+    private View holderView;
 
-    public FragmentController(int layout){
-        mLayout = layout;
+    public FragmentController(int descriptionId, int imageId) {
+        mDescription = descriptionId;
+        mImage = imageId;
     }
+
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        return inflater.inflate(mLayout, null);
+        return inflater.inflate(R.layout.card_fragment, null);
+    }
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        TextView descriptionView = (TextView) view.findViewById(R.id.card_fragment_description);
+
+        ImageView imageView = (ImageView) view.findViewById(R.id.card_fragment_image);
+
+        holderView = view.findViewById(R.id.card_fragment_holder);
+
+        descriptionView.setText(mDescription);
+        imageView.setImageResource(mImage);
+
+        descriptionView.setTypeface(EasyFonts.robotoLight(getContext()));
+    }
+
+    public void setHolderColor(int holderColor)
+    {
+        holderView.setBackgroundColor(holderColor);
     }
 }

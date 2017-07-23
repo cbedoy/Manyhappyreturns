@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Many happy returns</string>
+    <string name="app_name">Infinitas</string>
+    <string name="page_one_description">Más y más se va el momento al decirte una vez más que el tiempo ha quedado atrás no puedo más</string>
+    <string name="page_two_description">Por eso canción llevame lejos, donde nadie se acuerde de mi, quiero ser el murmullo de alguna ciudad que no sepa quien soy. </string>
+    <string name="page_three_description">Keeping it together\'s the hardest part when you find yourself losing the one that\'s not for love</string>
+    <string name="page_four_description">The birds singing the sun rising impatiently\nAs I wait for you</string>
+    <string name="page_five_description">Porque  \'Nadie entiende por qué me aferro, nadie te ve como te veo..\'</string>
+    <string name="page_six_description">Algún día te dejaré por siempre de buscar\n\nLo digo porque sé\nNos vamos a encontrar...</string>
+    <string name="page_seven_description">coz you\'re always on my fuckin\' mind...</string>
+    <string name="page_eight_description">Te quiero...♥\nDel verbo en serio</string>
+    <string name="page_nine_description">There\'s world out there and its calling my name\nAnd it\'s calling yours, girl it\'s calling yours too...</string>
 </resources>

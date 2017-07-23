@@ -8,16 +8,18 @@
     <android.support.v4.view.ViewPager
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/pager"
+        android:id="@+id/viewPager"
         />
 
     <com.ogaclejapan.smarttablayout.SmartTabLayout
-        android:id="@+id/indicator"
+        android:id="@+id/smartTabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:stl_dividerThickness="1dp"
         app:stl_indicatorColor="#FFFFFF"
         android:layout_marginBottom="16dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginLeft="64dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
